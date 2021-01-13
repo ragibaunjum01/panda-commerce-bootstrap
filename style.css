@@ -1,0 +1,29 @@
+.caro-sec{
+    background-color: #fceae8;
+    border-radius: 10px 10px;
+}
+.watch{
+    background-color: #ffa500;
+}
+.bag{
+    background-color: #da70d6;
+}
+.shoe{
+    background-color: #0000ff;
+}
+.watch img, .bag img, .shoe img{
+    width: 50px;
+}
+.button{
+    background-image: linear-gradient(180deg, #ff2077, #fc68a1);
+    border: none;
+}
+.submit{
+    background-color: #fceae8;
+    border-radius: 10px 10px;
+}
+@media (max-width: 668px) {
+    .shoe-sec, .bag-sec{
+        grid-template-columns: repeat(1 1fr);
+    }
+}
